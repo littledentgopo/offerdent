@@ -26,7 +26,7 @@ $(function() {
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-57899954-1', 'auto');
+    ga('create', 'UA-64969332-1', 'auto');
     ga('send', 'pageview');
     
     $('a').on('click', function() {
