@@ -1,0 +1,27 @@
+#map-canvas {
+    height: 400px;
+}
+
+table#pricesTable th {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+table#pricesTable del {
+    color: red;
+    margin-left: 30px;
+}
+
+.primarylink a,
+.primarylink a:hover,
+.primarylink a:focus,
+.primarylink a:active,
+.primarylink a.active {
+    outline: 0;
+    color: #{{site.color.primary}};
+}
+
+.primarycolor {
+    color: #{{site.color.primary}};
+}

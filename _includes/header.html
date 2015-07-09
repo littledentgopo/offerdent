@@ -1,0 +1,51 @@
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    {% if page.contact == null %}
+                        <img class="img-responsive" src="img/profile.png" alt="">
+                    {% endif %}
+                    <div class="intro-text">
+                        <span class="name">Cabinet Stomatologic {{page.subtitle}}</span>
+
+                        <hr class="star-light">
+                        {% if page.contact == 'one' %}
+                            <img src="{{site.contact.one.img}}" class="img-responsive img-circle" alt="">
+
+                            <p class="skills">{{site.contact.one.name}}</p> 
+                            <p class="skills">Telefon: {{site.contact.one.tel}}</p>
+
+
+                             <ul class="list-inline">
+                               <li>
+                                    <a href="{{site.contact.one.fb}}"  class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="tel: {{site.contact.one.tel}}"  class="btn-social btn-outline"><i class="fa fa-fw fa-phone"></i></a>
+                                </li>
+                            </ul>
+                            
+                        {% elsif page.contact == 'two' %}
+                            <img src="{{site.contact.two.img}}" class="img-responsive img-circle" alt="">
+
+                            <p class="skills">{{site.contact.two.name}}</p> 
+                            <p class="skills">Telefon: {{site.contact.two.tel}}</p>
+                        
+                             <ul class="list-inline social-buttons">
+                               <li>
+                                    <a href="{{site.contact.two.fb}}"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="tel: {{site.contact.two.tel}}"><i class="fa fa-fw fa-phone"></i></a>
+                                </li>
+                            </ul>
+                        {% else %}
+                            <span class="skills">{{site.contact.one.name}} - {{site.contact.two.name}}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>

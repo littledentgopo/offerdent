@@ -1,0 +1,30 @@
+name: IQDent
+
+color:
+    primary: 2C3E50
+    secondary: 18BC9C
+    
+contact:
+    office:
+        fb: http://facebook.com/IQDent
+        gplus: https://plus.google.com/+IqdentRo
+        twitter: 
+        tel: 
+            
+    one: 
+        name: Dr. Irina Alexandru
+        prefix: irina-
+        tel: 0766 748 971
+        img: img/team/1.jpg
+        fb: https://www.facebook.com/dririnaalexandru
+        msg: https://www.facebook.com/messages/dririnaalexandru
+    two: 
+        name: Dr. Bogdan Calenic
+        prefix: bogdan-
+        tel: 0755 044 047
+        img: img/team/2.jpg
+        fb:
+
+
+gems:
+  - jekyll-sitemap
