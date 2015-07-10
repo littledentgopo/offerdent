@@ -1,7 +1,4 @@
-     <!-- About Section -->
-<section id="bloglist">
-    <div class="container">
-    {% for post in site.posts %}
+{% for post in site.posts %}
       <article class="post">
         <h1 class="post-title">
           <a href="{{ site.baseurl }}{{ post.url }}">
@@ -9,6 +6,4 @@
           </a>
         </h1>
       </article>
-    {% endfor %}
-    </div>
-</section>
+{% endfor %}
