@@ -8,7 +8,15 @@
                         <img class="img-responsive" src="img/profile.png" alt="">
                     {% endif %}
                     <div class="intro-text">
-                        <span class="name">Cabinet Stomatologic {{page.subtitle}}</span>
+                        {% if page.subtitle == null %}
+
+                            <span class="name">Cabinet Stomatologic</span>
+                        
+                        {% else %}
+                        
+                            <span class="name">{{page.subtitle}}</span>
+
+                        {% endif %}
 
                         <hr class="star-light">
                         {% if page.contact == 'one' %}
