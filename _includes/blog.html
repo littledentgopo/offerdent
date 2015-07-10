@@ -1,0 +1,16 @@
+     <!-- About Section -->
+<section id="bloglist">
+    <div class="container">
+    {% for post in site.posts %}
+      <article class="post">
+        <h1 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        {{ post.excerpt  }}
+      </article>
+    {% endfor %}
+    </div>
+</section>
