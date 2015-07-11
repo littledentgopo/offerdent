@@ -26,5 +26,7 @@ contact:
         fb:
 
 
+permalink: none
+
 gems:
   - jekyll-sitemap
