@@ -48,21 +48,10 @@ $(function() {
 $(function() {
     window.fbAsyncInit = function() {
         FB.init({
+              appId      : '1646122675603637'
               xfbml      : true,
-              version    : 'v2.3'
+              version    : 'v2.4'
             });
-        
-        //Facebook Comments
-        FB.Event.subscribe('comment.create', function(href, widget) {
-            var currentPage = jQuery(document).attr('title');
-            ga('send', {
-                'hitType': 'social',
-                'socialNetwork': 'Facebook',
-                'socialAction': 'Comment',
-                'socialTarget': href,
-                'page': currentPage
-            });
-        }); 
     };
 
     (function(d, s, id){
