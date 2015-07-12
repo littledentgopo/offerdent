@@ -26,10 +26,15 @@ table#pricesTable del {
     color: #{{site.color.primary}};
 }
 
-.section.success a {
+section.success a {
    color : #FFF;
 }
 
 header a {
     color : #FFF;
+}
+
+.post .posttitle {
+    text-transform: uppercase;
+    font-size: 26px;
 }
