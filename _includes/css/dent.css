@@ -25,3 +25,7 @@ table#pricesTable del {
 .primarycolor {
     color: #{{site.color.primary}};
 }
+
+.section.success .Phone-no a {
+   color : #FFF;
+}
