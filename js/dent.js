@@ -80,15 +80,10 @@ $(function() {
 });
 
 $(function() {
-            console.log("run");
-
     $.getJSON("http://api.hostip.info/get_json.php", function (data) {
-        console.log(data);
         var userip = data["ip"];
         
-        console.log(userip);
         ga('send', 'event', 'userip', userip);
-                console.log("done");
 
     });  
 });
