@@ -87,6 +87,8 @@ $(function() {
         var userip = data["ip"];
         
         console.log(userip);
-        ga('send', 'event', 'customtrack', 'userip', userip);
+        ga('send', 'event', 'userip', userip);
+                console.log("done");
+
     });  
 });
