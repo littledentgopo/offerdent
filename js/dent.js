@@ -84,5 +84,5 @@ $(function() {
         
         var userip = data["ip"];
         ga('send', 'event', 'customtrack', 'userip', userip);
-    };  
+    });  
 });
