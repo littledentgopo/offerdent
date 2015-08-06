@@ -78,3 +78,11 @@ $(function() {
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
 });
+
+$(function() {
+    $.getJSON("http://api.hostip.info/get_json.php", function (data) {
+        
+        var userip = data["ip"];
+        ga('send', 'event', 'customtrack', 'userip', userip);
+    }  
+});
