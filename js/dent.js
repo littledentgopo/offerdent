@@ -65,8 +65,9 @@ $(function() {
 $(function() {
     window.fbAsyncInit = function() {
         FB.init({
-              xfbml      : true,
-              version    : 'v2.3'
+                appId      : '1646122675603637',
+                xfbml      : true,
+                version    : 'v2.4'
             });
     };
 
