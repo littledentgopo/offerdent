@@ -36,9 +36,6 @@ header a {
 
 .post .posttitle {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 24px;
 }
 
-.post p {
-    font-size: 15px;
-}
