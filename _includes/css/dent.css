@@ -39,3 +39,50 @@ header a {
     font-size: 24px;
 }
 
+
+#callnow {
+ display: none;
+ z-index: 998;
+ clear: both;
+ margin: 0 auto;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ overflow: hidden;
+ padding: 10px 5px
+}
+
+#callnow div {
+ display: flex;
+ flex: 1;
+ padding-left: 25%;
+ padding-right: 25%;
+}
+
+#callnow div a {
+ color: #fff;
+ display: block;
+ background: #{{site.color.secondary}};
+ padding: 10px;
+ border-radius: 21px;
+ height: 34px;
+ line-height: 14px;
+ font-size: 14px;
+ margin: 0 5px;
+ text-transform: uppercase;
+ font-weight: normal;
+ text-align: center;
+ box-sizing:content-box;
+ text-decoration: none !important;
+ width: 100%;
+ box-sizing: border-box
+}
+
+@media screen and (max-width: 1024px) {
+    div#callnow { 
+        display: flex !important; 
+        background: #{{site.color.primary}}; 
+    }  
+}
+
