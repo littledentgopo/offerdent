@@ -29,6 +29,8 @@ offer:
 permalink: none
 
 gems:
+  - jekyll-feed
   - jekyll-sitemap
+  
   
 
