@@ -1,4 +1,5 @@
 name: IQDent
+newname: INODent
 title: "Oferte implant dentar"
 description: "Oferte implant dentar pret ieftin. Bucuresti, Sector 3. Implanturi dentare la preturi rezonabile."
 url: https://www.oferteimplantdentar.ro
@@ -27,7 +28,7 @@ contact:
 
 offer:
     expirydate: 31 Martie 2018
-    extramonth: ianuarie
+    extramonth: februarie 2018
 
 
 permalink: none
