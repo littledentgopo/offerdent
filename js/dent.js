@@ -14,7 +14,7 @@ $(function() {
         var marker = new google.maps.Marker({
           position: myLatlng,
           map: map,
-          title: 'Cabinet Stomatologic IQDent'
+          title: 'Cabinet Stomatologic INODent'
         });
     };
     google.maps.event.addDomListener(window, 'load', initialize);
