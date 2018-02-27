@@ -1,6 +1,6 @@
 ---
 ---
-
     {% include css/bootstrap.min.css %}
     {% include css/freelancer.css %}
     {% include css/dent.css %}
+    {% include css/font-awesome.min.css %}
