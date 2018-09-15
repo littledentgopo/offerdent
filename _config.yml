@@ -34,6 +34,9 @@ offer:
 
 permalink: none
 
+map:
+    key: AIzaSyBjpBjFh9xbRqw8jBS6vV4d53vlWpjDTpI
+
 gems:
   - jekyll-feed
   - jekyll-sitemap
