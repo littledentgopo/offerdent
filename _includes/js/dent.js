@@ -2,6 +2,10 @@ $(function() {
     var initialize = function() {
         var myLatlng = new google.maps.LatLng(44.424100, 26.120148);
         var mapCanvas = document.getElementById('map-canvas');
+        if (!mapCanvas) {
+            return;
+        }
+        
         var mapOptions = {
           center: myLatlng,
           zoom: 16,
